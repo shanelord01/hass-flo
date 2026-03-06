@@ -70,11 +70,11 @@ class FloPendingAlertsBinarySensor(FloEntity, BinarySensorEntity):
 class FloWaterDetectedBinarySensor(FloEntity, BinarySensorEntity):
     """Binary sensor that reports if water is detected (for leak detectors)."""
 
-    _attr_device_class = BinarySensorDeviceClass.PROBLEM
+    _attr_device_class = BinarySensorDeviceClass.MOISTURE
     _attr_translation_key = "water_detected"
 
     def __init__(self, device):
-        """Initialize the pending alerts binary sensor."""
+        """Initialize the water detected binary sensor."""
         super().__init__("water_detected", device)
 
     @property

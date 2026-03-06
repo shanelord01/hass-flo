@@ -1,7 +1,6 @@
 """The flo integration."""
 
 import asyncio
-import logging
 
 from aioflo import async_get_api
 from aioflo.errors import RequestError
@@ -11,9 +10,8 @@ from homeassistant.core import HomeAssistant
 from homeassistant.exceptions import ConfigEntryNotReady
 from homeassistant.helpers.aiohttp_client import async_get_clientsession
 
+from .const import LOGGER
 from .coordinator import FloConfigEntry, FloDeviceDataUpdateCoordinator, FloRuntimeData
-
-_LOGGER = logging.getLogger(__name__)
 
 PLATFORMS = [Platform.BINARY_SENSOR, Platform.SENSOR, Platform.SWITCH]
 
@@ -30,7 +28,7 @@ async def async_setup_entry(hass: HomeAssistant, entry: FloConfigEntry) -> bool:
 
     user_info = await client.user.get_info(include_location_info=True)
 
-    _LOGGER.debug("Flo user information with locations: %s", user_info)
+    LOGGER.debug("Flo user information with locations: %s", user_info)
 
     devices = [
         FloDeviceDataUpdateCoordinator(
