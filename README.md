@@ -1,6 +1,6 @@
  Flo by Moen Integration for Home Assistant
 
-[![CurrentVersion](https://img.shields.io/badge/Current_Version-v2.0.0-orange.svg)](https://github.com/shanelord01/hass-flo/releases)   [![Beta](https://img.shields.io/badge/Released-March,_2026-red.svg)](https://github.com/shanelord01/hass-flo/releases)   [![HACS](https://img.shields.io/badge/HACS-Custom_Repository-darkorange.svg)](https://github.com/shanelord01/hass-flo)
+[![CurrentVersion](https://img.shields.io/badge/Current_Version-v2.0.0--rc.1-orange.svg)](https://github.com/shanelord01/hass-flo/releases)   [![Beta](https://img.shields.io/badge/Released-March,_2026-red.svg)](https://github.com/shanelord01/hass-flo/releases)   [![HACS](https://img.shields.io/badge/HACS-Custom_Repository-darkorange.svg)](https://github.com/shanelord01/hass-flo)
 
 [![Type](https://img.shields.io/badge/Type-Custom_Component-forestgreen.svg)](https://github.com/shanelord01/hass-flo)   [![HA](https://img.shields.io/badge/Home_Assistant-2024.4+-forestgreen.svg)](https://www.home-assistant.io)   [![ProjectStage](https://img.shields.io/badge/Project_Stage-General_Availability-forestgreen.svg)](https://github.com/shanelord01/hass-flo)
 
