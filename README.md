@@ -2,7 +2,7 @@
 
 [![CurrentVersion](https://img.shields.io/badge/Current_Version-v2.0.0--rc.1-red.svg)](https://github.com/shanelord01/hass-flo/releases)   [![Beta](https://img.shields.io/badge/Released-March,_2026-orange.svg)](https://github.com/shanelord01/hass-flo/releases)   [![HACS](https://img.shields.io/badge/HACS-Custom_Repository-darkorange.svg)](https://github.com/shanelord01/hass-flo)
 
-[![Type](https://img.shields.io/badge/Type-Custom_Component-forestgreen.svg)](https://github.com/shanelord01/hass-flo)   [![HA](https://img.shields.io/badge/Home_Assistant-2024.4+-forestgreen.svg)](https://www.home-assistant.io)   [![ProjectStage](https://img.shields.io/badge/Project_Stage-General_Availability-forestgreen.svg)](https://github.com/shanelord01/hass-flo)
+[![Type](https://img.shields.io/badge/Type-Custom_Component-forestgreen.svg)](https://github.com/shanelord01/hass-flo)   [![HA](https://img.shields.io/badge/Home_Assistant-2024.4+-forestgreen.svg)](https://www.home-assistant.io)   [![ProjectStage](https://img.shields.io/badge/Project_Stage-Pre-Release-red.svg)](https://github.com/shanelord01/hass-flo)
 
 Monitor and control your Flo by Moen smart water devices from Home Assistant.
 An updated drop-in replacement for the core Flo integration, fixing a long-standing temperature unit bug and other code quality issues. Compatible with Flo Smart Water Shutoff valves and Flo Smart Water Detectors (pucks).
