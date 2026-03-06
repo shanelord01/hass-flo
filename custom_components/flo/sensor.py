@@ -109,15 +109,10 @@ class FloCurrentFlowRateSensor(FloEntity, SensorEntity):
 
 
 class FloTemperatureSensor(FloEntity, SensorEntity):
-    """Monitors the temperature.
-
-    The Flo API field `tempF` returns values in Celsius despite its name.
-    Native unit is declared as Celsius so Home Assistant handles conversion
-    correctly to the user's preferred unit system.
-    """
+    """Monitors the temperature."""
 
     _attr_device_class = SensorDeviceClass.TEMPERATURE
-    _attr_native_unit_of_measurement = UnitOfTemperature.CELSIUS
+    _attr_native_unit_of_measurement = UnitOfTemperature.FAHRENHEIT
     _attr_state_class: SensorStateClass = SensorStateClass.MEASUREMENT
 
     def __init__(self, device, is_water):
