@@ -164,7 +164,7 @@ logger:
 
 - Original `aioflo` library: [bachya/aioflo](https://github.com/bachya/aioflo)
 - Original core integration: [home-assistant/core](https://github.com/home-assistant/core/tree/dev/homeassistant/components/flo)
-- Bug fixes and HACS packaging: [YOUR_GITHUB/hass-flo](https://github.com/shanelord01/hass-flo)
+- Bug fixes and HACS packaging: [shanelord01/hass-flo](https://github.com/shanelord01/hass-flo)
 
 ---
 
