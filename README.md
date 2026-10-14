@@ -1,3 +1,10 @@
+> [!IMPORTANT]
+> **This repository is archived and no longer maintained.** Use the Flo integration built into Home Assistant instead: [home-assistant.io/integrations/flo](https://www.home-assistant.io/integrations/flo/).
+>
+> The core integration now does everything this one did and more: aioflo 2026.9.4, Moen SSO sign-in with automatic fallback, water consumption scoped to each device, and the no-sensor water temperature placeholder hidden.
+>
+> To switch, remove this custom integration (in HACS, or delete `custom_components/flo`) and restart Home Assistant. The core integration takes over the existing config entry and entities, so no reconfiguration is needed. If you have Flo water detectors and want them shown as Moisture, change "Show as" in each entity's settings.
+
  Flo by Moen Integration for Home Assistant
 
 [![CurrentVersion](https://img.shields.io/badge/Current_Version-v2.0.0.2-orange.svg)](https://github.com/shanelord01/hass-flo/releases)   [![Beta](https://img.shields.io/badge/Released-March,_2026-orange.svg)](https://github.com/shanelord01/hass-flo/releases)   [![HACS](https://img.shields.io/badge/HACS-Custom_Repository-darkorange.svg)](https://github.com/shanelord01/hass-flo)
